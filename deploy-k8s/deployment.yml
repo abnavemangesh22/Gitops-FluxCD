@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: springboot-container
-        image: maheshroshini08/simple-devops-image:latest
+        image: mangeshabnave/myclinic-multi-stage
         imagePullPolicy: Always
         ports:
         - containerPort: 8080   
